@@ -1,0 +1,45 @@
+Topics for 1600 :
+-----------------
+1. Number Theory :- 
+  - Modular Arithmetic
+  - Eculedian Algorithm
+  - Sieve of Eratosthenes
+  - Binary Expnentiation
+  - Matrix multiplication
+  - Combinatorics
+  - Primes, Divisors, Multiples
+
+2. Binary Search and Ternary Search
+  - Normally Binary searching
+  - Binary search on answer
+  - Monotonic functions
+
+3. Dynamic Programming
+  - Practice a bunch of standard problems
+  - DP section on CSES
+  - DP with bitmasking (Beginner) 
+  - DP on Trees (Beginner)
+
+4. Greedy Problems: 
+  - Basic algorithms on Intervals
+  - Practice a bunch of standard probles
+  - Searching and sorting section of CSES (60%)
+  - Proving algorithms (Optional : Exchange Arguments)
+
+5. Graphs : 
+  - DFS
+  - BFS
+  - Connected components
+  - Prims algo and Kruskal's algo
+  - Cycle detection
+  - Dijkstra's Algo, Floyd Warshall, Bellman ford
+  - Graph section of CSES (30%)
+  - DSU/UFDS (Optionsal) 
+
+6. Trees :
+  - Basic Properties
+  - DFS
+  - Binary lifting
+  - Finding LCA in log(n)
+  - DP on trees
+  - Trees section on CSES (50%)
