@@ -1,6 +1,26 @@
 #include<bits/stdc++.h> 
 using namespace std;
-const int N = 1e5 + 10;
+void google(int x) {cout << "Case #" << x << ":" << " ";}
+double squareroot(double x) { 
+    double lo =  0, hi = 1e18; 
+    int test = 150; 
+    while(test--) { 
+        double mid = lo + (hi - lo)/2; 
+        if(mid*mid < x) lo = mid; 
+        else hi = mid; 
+    } 
+    return lo; 
+}
+double cuberoot(double x) { 
+    double lo =  0, hi = 1e18; 
+    int test = 150; 
+    while(test--) { 
+        double mid = lo + (hi - lo)/2; 
+        if(mid*mid*mid < x) lo = mid; 
+        else hi = mid; 
+    } 
+    return lo;
+}
 int mod = 1e9 + 7;
 int modpow(int x, int n, int m = mod) { // modpow function calculates x^n in just log(n) time. 
 	if(n == 0) return 1 % m;
@@ -20,6 +40,7 @@ bool isprime(int n) {
     // no integer from 2 ti n - 1 divides n so n is prime
     return true;
 }
+const int N = 1e5 + 10;
 vector<bool> prime(N, 1); // prime[i] will return true if i is prime
 vector<int> fprime(N, 0); // fprime[i] contains the first prime factor of i 
 void seive() {
@@ -51,21 +72,23 @@ vector<int> primefactorization(int n) {
 }
 
 
-void solve () {
+void testcase () {
 	
-	for(int i = 2; i < 101; i++) {
-		cout << i << " - " << fprime[i] << endl;
-	}
+	
 
+}
+
+void precompute() {
+    // seive();
 }
 
 int main() {
     ios_base::sync_with_stdio(false);cin.tie(NULL);  cout.tie(NULL);
-	int t = 1; 
-	// cin >> t;
-	seive();
-	while(t--) {
-		solve();
-	}
+	int tt = 1; 
+	cin >> tt;
+	for(int i = 1; i <= tt; ++i) {
+        // google(i);
+        testcase();
+    }
 	return 0;
 }
