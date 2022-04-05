@@ -1,7 +1,7 @@
 #include<bits/stdc++.h> 
 using namespace std;
 void google(int x) {cout << "Case #" << x << ":" << " ";}
-double squareroot(double x) { 
+double squareroot(double x) { // squareroot in log(n) time
     double lo =  0, hi = 1e18; 
     int test = 150; 
     while(test--) { 
@@ -11,7 +11,7 @@ double squareroot(double x) {
     } 
     return lo; 
 }
-double cuberoot(double x) { 
+double cuberoot(double x) { // cuberoot in log(n) time
     double lo =  0, hi = 1e18; 
     int test = 150; 
     while(test--) { 
