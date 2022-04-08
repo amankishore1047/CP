@@ -70,6 +70,16 @@ vector<int> primefactorization(int n) {
 	}
 	return v;
 }
+long long ncr(long long n, long long k) {
+    long long res = 1;
+    if (k > n - k)  k = n - k;
+    for (int i = 0; i < k; ++i) {
+        res *= (n - i);
+        res /= (i + 1);
+    }
+    return res;
+}
+
 
 
 void testcase () {
