@@ -80,8 +80,6 @@ long long ncr(long long n, long long k) {
     return res;
 }
 
-
-
 void testcase () {
 	
 	
