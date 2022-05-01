@@ -45,8 +45,6 @@ int main() {
     	cout << i << " - " << level[i] << endl;
     }
 
-    
-
     return 0;
 }
 
