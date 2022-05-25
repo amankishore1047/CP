@@ -24,7 +24,7 @@ void dijkstra(int source) {
             int child = it.first;
             int wt = it.second;
             int new_dist = dist[v] + wt;
-            if(new_dist < d) {
+            if(new_dist < dist[child]) {
                 st.insert({new_dist, child});
                 dist[child] = new_dist;
             }
